@@ -5,8 +5,6 @@ phases:
   install:
     runtime-versions:
       nodejs: 8
-    commands:
-      -echo Executing Install Phase
   pre_build: 
     commands: 
       -echo Executing Pre Build Phase

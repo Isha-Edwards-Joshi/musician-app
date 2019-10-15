@@ -7,10 +7,10 @@ phases:
       nodejs: 8
   pre_build: 
     commands: 
-      -echo Executing Pre Build Phase
+      -echo Nothing to do in the pre_build phase...
   build:
     commands:
-      -echo Executing Build Phase
+      -echo Build started on `date`
   post_build:
     commands: 
-      -echo Exectuing Post Build Phase
+      -echo Build completed on `date`

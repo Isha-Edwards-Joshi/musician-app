@@ -9,7 +9,5 @@ phases:
     commands: 
   build:
     commands:
-      -echo Build started on `date`
   post_build:
     commands: 
-      -echo Build completed on `date`
